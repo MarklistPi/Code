@@ -3,6 +3,7 @@
 
 .container {
     max-width: 500px;
+    min-width: 100vw;
     background-color: white;
     min-height: 100vh;
 }
