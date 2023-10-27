@@ -1,0 +1,139 @@
+.listas{
+    padding: 20px 20px;
+}
+h1 {
+    font-size: 40px;
+   font-family: "Quicksand";
+   font-weight: 700;
+   color: rgba(0, 102, 153, 1);
+   width: 112px;
+   height: 50px;
+   padding-left: 20px;
+}
+
+.sub{
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+h2{
+    color: #696600;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table{
+    border-collapse: separate; 
+    border-spacing: 10px;
+}
+
+th{
+    color: #696600;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 2.5px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+td{
+    color: #696600;
+    font-family: "Quicksand";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 2.5px;
+    padding-left: 12px;
+}
+
+.sub {
+    font-size: 16px;
+   font-family: "Quicksand";
+   font-weight: 500;
+   color: rgba(0, 102, 153, 1);
+   width: 291px;
+   height: 20px;
+}
+
+.text-icon {
+    font-size: 12px;
+   font-family: "Quicksand";
+   font-weight: 500;
+   color: rgba(0, 102, 153, 1);
+}
+
+.buttons{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    height: 25px;
+}
+
+.card{
+    padding: 20px 25px;
+    border-radius: 16px;
+    border-right: 1px solid #696600;
+    border-bottom: 1px solid #696600;
+    background: rgba(230, 223, 19, 0.50);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 16px;
+    min-height: 450px;
+}
+
+.footer-card{
+    margin-top: 40px;
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    justify-content: end;
+}
+
+p{
+    color: #696600;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+span{
+    color: #696600;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.flex{
+    display: flex;
+    gap: 5px;
+    padding: 3px;
+}
+
+hr{
+    width: 340.001px;
+    height: 1px;  
+    color: #7A7711;  
+    margin-bottom: 16px;
+}
