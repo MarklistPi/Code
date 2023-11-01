@@ -1,0 +1,156 @@
+:root{
+
+    /* Cores */
+    --azul: #17A1E6;
+    --amarelo: #E6DF13;
+    --vermelho: #E62E40;
+    --azul_escuro: #006699;
+    --amarelo-escuro: #999408;
+}
+
+.azul{
+    color: var(--azul);
+}
+.azul-escuro{
+    color: var(--azul_escuro);
+}
+.amarelo{
+    color: var(--amarelo);
+}
+.amarelo-escuro{
+    color: var(--amarelo-escuro);
+}
+.vermelho{
+    color: var(--vermelho);
+}
+
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 32px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+}
+p{
+    font-size: 16px;
+}
+.p-min{
+    font-size: 10px;
+}
+
+
+/* Font Bold */
+.b-600{
+    font-weight: 600;
+}
+.b-700{
+    font-weight: 700;
+}
+.b-800{
+    font-weight: 800;
+}
+.b-900{
+    font-weight: 900;
+}
+
+.button-main{
+    border-radius: 16px;
+    border: 1px solid #069;
+    background-color: var(--azul);
+    box-shadow: 6px 4px 7px 0px rgba(105, 102, 0, 0.25);
+    color: #069;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 17px;
+    text-align: center;
+}
+.button-outline{
+    border-radius: 16px;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    color: #069;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 17px;
+    text-align: center;
+}
+
+.input {
+    border-radius: 16px;
+    border-right: 1px solid #696600;
+    border-bottom: 1px solid #696600;
+    border-top: none;
+    border-left: none   ;
+    background: rgba(230, 223, 19, 0.50);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 13px 19px;
+    color: #696600;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input::placeholder{
+    color: #C9C670;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.flex{
+    display: flex;
+}
+
+.collum{
+    flex-direction: column;
+}
+
+.j-center{
+    justify-content: center;
+}
+.j-auround{
+    justify-content: space-around;
+}
+
+.a-center{
+    align-items: center;
+}
+
+
+.g-8{
+    gap: 8px;
+}
+.g-10{
+    gap: 10px;
+}
+.g-16{
+    gap: 16px;
+}
+.g-24{
+    gap: 24px;
+}
+.g-32{
+    gap: 32px;
+}
+
+.card-amarelo{
+    padding: 16px;
+    border-radius: 16px;
+    border-right: 1px solid #696600;
+    border-bottom: 1px solid #696600;
+    background: rgba(230, 223, 19, 0.50);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
