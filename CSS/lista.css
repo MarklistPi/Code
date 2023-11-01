@@ -11,6 +11,17 @@ h1 {
    padding-left: 20px;
 }
 
+.tittle-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.tittle-card{
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .sub{
     margin-bottom: 30px;
     padding-left: 20px;
@@ -115,7 +126,6 @@ td{
 }
 
 .footer-card{
-    margin-top: 40px;
     display: flex;
     gap: 16px;
     width: 100%;
