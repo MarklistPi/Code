@@ -124,6 +124,9 @@ p{
 .j-auround{
     justify-content: space-around;
 }
+.j-bet{
+    justify-content: space-between;
+}
 
 .a-center{
     align-items: center;
