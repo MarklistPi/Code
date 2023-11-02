@@ -1,86 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../CSS/reset.css">
-    <link rel="stylesheet" href="../CSS/main.css">
-    <link rel="stylesheet" href="../CSS/lista.css">
-    <link rel="shortcut icon" href="../Images/logo.svg" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../Styles/main.css" />
+    <link rel="stylesheet" href="./lista.css" />
+    <link rel="shortcut icon" href="../../Images/logo.svg" type="image/x-icon" />
     <title>MarkList</title>
 </head>
+
 <body>
     <!-- Container Mobile -->
     <div class="container">
-        <section class="listas">
-            <div class="tittle">
-                <h1>Evento</h1>
-                <p class="sub">Churrasco Aniversário Dennis</p>
+        <section class="flex collum g-24">
+            <div class="flex collum g-8">
+                <div class="flex g-8 a-center">
+                    <a href="./listas.html">
+                        <img src="../../Images/logo.svg" />
+                    </a>
+                    <h3 class="b-700 azul-escuro">Lista</h3>
+                </div>
+                <p class="b-600 azul-escuro">Aniverário do Dennis</p>
             </div>
-            <div class="cards-on">
-                <div class="card">
-                    <div>
-                        <div class="tittle-card">
-                            <div class="tittle-text">
-                                <div class="flex">
-                                    <p>Tipo:</p> <span>Lista Mensal</span>
-                                </div>
-                                <div class="flex">
-                                    <p>Criação:</p> <span>13/09/2023</span>
-                                </div>
-                            </div>
-                            <div class="footer-card">
-                                <a class="button" href="alterar_lista.html">
-                                    <img src="../Images/editar.svg" class="img-button" alt="">
-                                </a>
-                                <a class="button" href="">
-                                    <img src="../Images/recycle-bin-icon 1.svg" class="img-button" alt="">
-                                </a>
-                                <a class="button" href="listacompartilhada.html">
-                                    <img src="../Images/compartilhar.svg" class="img-button" alt="">
-                                </a>
-                            </div>
+
+
+            <div class="card-amarelo">
+
+                <div class="tittle-card">
+                    <div class="tittle-text">
+
+                        <div class="flex g-8">
+                            <p class="amarelo-escuro b-700">Tipo:</p>
+                            <span class="amarelo-escuro">Lista Mensal</span>
+                        </div>
+                        <div class="flex g-8">
+                            <p class="amarelo-escuro b-700">Data de Criação</p>
+                            <span class="amarelo-escuro">13/09/2023</span>
                         </div>
                     </div>
-                    <div>
-                        <h2>Produtos</h2>
-                        <table>
-                            <tr>
-                                <th>Qnt</th>
-                                <th>Nome</th>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Detergente Ype</td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Sabão em pó</td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Macarrão Espaguetti</td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Arroz</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Creme de Leite</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Leite Condensado</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="adicionar">
-                            <a class="button" href="./novo_produto.html">
-                                <img src="../Images/adicionar.svg" class="img-button" alt="">
-                            </a>
+                    <div class="footer-card">
+                        <a class="button" href="alterar_lista.html">
+                            <img src="../../Images/editar.svg" class="img-button" alt="">
+                        </a>
+                        <a class="button" href="">
+                            <img src="../../Images/recycle-bin-icon 1.svg" class="img-button" alt="">
+                        </a>
+                        <a class="button" href="listacompartilhada.html">
+                            <img src="../../Images/compartilhar.svg" class="img-button" alt="">
+                        </a>
                     </div>
                 </div>
+
+                <div>
+                    <h2>Produtos</h2>
+                    <table>
+                        <tr>
+                            <th>Qnt</th>
+                            <th>Nome</th>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Detergente Ype</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Sabão em pó</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Macarrão Espaguetti</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Arroz</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Creme de Leite</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Leite Condensado</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="adicionar">
+                    <a class="button" href="./novo_produto.html">
+                        <img src="../Images/adicionar.svg" class="img-button" alt="">
+                    </a>
+                </div>
             </div>
+
             <div class="buttons">
                 <a href="./listas.html">
                     <button class="button-2">VOLTAR</button>
@@ -90,4 +101,5 @@
         </section>
     </div>
 </body>
+
 </html>
