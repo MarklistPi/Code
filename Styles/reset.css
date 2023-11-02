@@ -11,14 +11,14 @@
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
-    
+
 
 }
 
-input{
+input {
     background: none;
 }
 
-a{
+a {
     cursor: pointer;
 }
