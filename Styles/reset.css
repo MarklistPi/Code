@@ -18,3 +18,7 @@
 input{
     background: none;
 }
+
+a{
+    cursor: pointer;
+}
