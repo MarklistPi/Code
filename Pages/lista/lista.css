@@ -161,3 +161,13 @@ hr{
     color: #7A7711;  
     margin-bottom: 16px;
 } */
+
+tr{
+    height: 32px;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
