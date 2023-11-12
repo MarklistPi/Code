@@ -8,7 +8,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@supabase/supabase-js": "^2.38.4",
     "@types/node": "^20.9.0",
@@ -17,5 +16,7 @@
     "tsup": "^7.2.0",
     "tsx": "^4.1.1",
     "typescript": "^5.2.2"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
